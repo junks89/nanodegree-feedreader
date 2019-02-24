@@ -86,7 +86,23 @@ function loadFeed(id, cb) {
 /* Google API: Loads the Feed Reader API and defines what function
  * to call when the Feed Reader API is done loading.
  */
-google.setOnLoadCallback(init);
+
+function LoadGoogle()
+{
+    if(typeof google != 'undefined' && google && google.load)
+    {
+        google.setOnLoadCallback(init);
+    }
+    else
+    {
+        // Retry later...
+        setTimeout(LoadGoogle, 30);
+    }
+}
+
+LoadGoogle();
+
+
 
 /* All of this functionality is heavily reliant upon the DOM, so we
  * place our code in the $() function to ensure it doesn't execute

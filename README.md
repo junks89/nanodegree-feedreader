@@ -3,9 +3,9 @@
 ## Table of Contents
 
 - [Instructions](#instructions)
-- [How to run it](#howtorunit)
-- [Project Requirements](#projectRequirements)
-- [Resources/Techniques used](#resourcesused)
+- [How to run it](#how-to-run-it)
+- [Project Requirements](#project-Requirements)
+- [Resources & Techniques used](#resources-&-techniques-used)
 
 ## Instructions
 
@@ -28,7 +28,7 @@ There is also a live demo available: [Live Demo](https://junks89.github.io/nanod
 - Write a test suite named "New Feed Selection"
 - Write a test that ensures when a new feed is loaded by the loadFeed function that the content actually changes
 
-## Resources/Techniques used
+## Resources & Techniques used
 
 - [Jasmine Cheatsheet](https://devhints.io/jasmine)
 - [Jasmine](https://jasmine.github.io/)
