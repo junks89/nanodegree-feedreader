@@ -86,7 +86,7 @@ function loadFeed(id, cb) {
 /* Google API: Loads the Feed Reader API and defines what function
  * to call when the Feed Reader API is done loading.
  */
-
+/* From: https://stackoverflow.com/questions/1349152/google-load-and-message-google-is-not-defined*/
 function LoadGoogle()
 {
     if(typeof google != 'undefined' && google && google.load)
