@@ -106,7 +106,6 @@ $(function () {
                         done();
                     }
                 })
-
         });
 
         it('Compare feed entries if they change after reload', function () {
